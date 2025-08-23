@@ -1,0 +1,35 @@
+stasis core (c) [S2 rule] - # 'energies that flow harmoniously until the shift in power'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=0;
+options.garbagecap=40;
+options.spinbonuses=all-mini+;
+options.b2bchaining=false;
+options.b2bcharging=true;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=combo blocking;

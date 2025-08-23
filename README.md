@@ -6,5 +6,5 @@ use /set in parts
 List of Gamemodes:
 New Chesstris v.0.5 /
 Chesstris: Blitz v0.1.8 /
-ACG Series v.10.1c | 3rd Cycle /
+ACG Series v.11 | 3rd Cycle /
 Endurance Remade v.1.1 /

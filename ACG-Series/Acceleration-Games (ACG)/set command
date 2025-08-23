@@ -30,3 +30,5 @@ options.garbageblocking=limited blocking;
 options.garbagecapmax=5;
 options.garbagecapmargin=0;
 options.garbagecapincrease=0.018;
+options.messiness_change=1;
+options.messiness_inner=0;

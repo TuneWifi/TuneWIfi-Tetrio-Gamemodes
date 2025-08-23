@@ -1,0 +1,799 @@
+
+
+the asterisk text point is the line where it reaches text cap by TETR.IO
+use /set in parts
+
+Mod status:
+(c) - core, the main mod of the set. It is the recommended mod for casuals and the mod used for RANKED
+(s) - stable, likely low chance of changes
+(u) - unstable, likely high chance of changes
+(w) - wild, untested and in its raw form
+(a) - abandoned, will no longer see changes
+
+To ensure nothing will go wrong, set your gamepresets to default or tetra league (not season 1) each time you plan to play a different gamemode
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Chesstris
+
+Mod list:
+stasis core (c) |
+all arms (s) |
+chains bound (s) |
+high focus (s) |
+untalented (u) |
+decelerate (u) |
+explosive matters (u) |
+full speed (u) |
+no mercy (a)
+
+chains bound (s) [S1, All mini+] - # 'the only way out is by staying strong together'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bcharging=false;
+options.b2bchaining=true;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=0;
+options.garbagemultiplier=1;
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.garbagecap=40;
+options.spinbonuses=all-mini+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+           _-*-_
+/set
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=combo blocking;
+
+explosive matters (u) [power b2b, all-mini+, bombs, lenient garb, .9x garb multi, messier garb] - # 'with many battles fought, the war still rages on' //--construction---//
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bchaining=true;
+options.b2bcharging=true;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=0;
+options.garbagecap=40;
+options.spinbonuses=all-mini+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbagemultiplier=0.9;
+options.messiness_change=0.9;
+           _-*-_
+/set
+options.messiness_inner=0.2;
+options.garbageare=8;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.usebombs=true;
+options.messiness_nosame=true;
+options.nextcount=6;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=300;
+options.garbageblocking=combo blocking;
+
+stasis core (c) [S2 rule] - # 'energies that flow harmoniously until the shift in power'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=0;
+options.garbagecap=40;
+options.spinbonuses=all-mini+;
+options.b2bchaining=false;
+options.b2bcharging=true;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=combo blocking;
+
+high focus (s) [Guideline, 1.2x garb multi] - # 'if you let it free and it comes back, its yours!'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bcharging=false;
+options.b2bchaining=false;
+options.allclear_garbage=8;
+options.openerphase=0;
+options.garbagecap=40;
+options.spinbonuses=T-spins+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.infinite_hold=true;
+options.garbagemultiplier=1.2;
+           _-*-_
+/set
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=combo blocking;
+
+untalented (u) [Guideline, Fragile] - # 'with the ones that lost everything but is still willing'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bcharging=false;
+options.b2bchaining=false;
+options.allclear_garbage=8;
+options.openerphase=0;
+options.garbagecap=40;
+options.spinbonuses=T-spins+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.infinite_hold=true;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=limited blocking;
+
+all arms (s) [Guideline, all spin+] - # 'a world truly set in a world of magic...'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bcharging=false;
+options.b2bchaining=false;
+options.allclear_garbage=8;
+options.openerphase=0;
+options.garbagemultiplier=1;
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=true;
+options.garbagecap=40;
+options.spinbonuses=all+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+           _-*-_
+/set
+options.garbageentry=continuous;
+options.garbageare=1;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=combo blocking;
+
+decelerate (u) [Power b2b, .7x garb multi, all spin+] - # 'the last day before things goes down crumbling'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bcharging=true;
+options.b2bchaining=true;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=0;
+options.garbagemultiplier=0.7;
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.garbagecap=40;
+options.spinbonuses=all+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+           _-*-_
+/set
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=combo blocking;
+
+full speed (u) [S1, cleaner garbage] - # 'the only path seen is where the light goes...'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bcharging=false;
+options.b2bchaining=true;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=0;
+options.garbagemultiplier=1;
+options.messiness_change=0;
+options.messiness_inner=0.15;
+options.messiness_nosame=false;
+options.garbagecap=40;
+options.spinbonuses=T-spins+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+           _-*-_
+/set
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=combo blocking;
+
+no mercy (a) [Power b2b, all spin+] - # 'apologies are excuses used by the weak'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bcharging=true;
+options.b2bchaining=true;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=0;
+options.garbagemultiplier=1;
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.garbagecap=40;
+options.spinbonuses=all+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+           _-*-_
+/set
+options.garbageentry=continuous;
+options.garbageare=1;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=combo blocking;
+-------------------------------------------------------------------------------------------------------------------------------------
+
+to use point lead system, use this: (must use in RANKED)
+/set
+match.wb=2;
+match.gp=3;
+
+TuneWifi's Chesstris system rules:
+players start the first round with first to 7 pieces, the first person to do so will play first
+rounds 2 and beyond will have players play first if they lost the previous round
+fouls are earned by:
+going over the multiple of 7 (miscount)
+placing pieces when its not your turn (false start)
+
+When setting up a ranked match, set the timer in https://sharedgametimer.com/
+Pick the following options:
+Count Down(pick)
+Divide the game into rounds(on)
+Any player may end the round(pick)
+Select 1st player at round start(on)
+Auidible time reminders(on)
+Time adjust buttons(on) -> remove 1, -2 and add -3
+
+Templates:
+Chesstris - https://sharedgametimer.com/templates/W6CocJEtH40kFwwcP0cR
+Chesstris Blitz - https://sharedgametimer.com/templates/Nwyug4hXSBzIGGJC8gEN
+
+Old Rule:
+Max fouls are 2, fouls last one round and is reset back to 0 every new round
+1 foul removes 3 minutes off the clock on that round, reaching 2 will lose you that round
+losing the round by foul will DISQUALIFY you from first turn priority
+for the standard set, 10 minutes is placed and is reset per new game round
+if your timer runs out, you lose the round but keep turn priority
+for the 1st round, timer will only begin after the first bag, the one who goes first will have their clock started
+
+RANKED Rule:
+Max fouls are 3, but fouls last for the entire match
+1 foul removes 3 minutes off the clock on that round, reaching 3 instantly loses you the match
+for the standard set, 10 minutes is placed and is reset per new game round
+if your timer runs out, you lose the round and turn priority
+for the 1st round, timer will only begin after the first bag, the one who goes first will have their clock started
+
+v.0.5
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Chesstris: Blitz (in-dev)
+
+Mod list: 
+blitz (s) |
+shackled (s) |
+accelerate (u) |
+blistering speed (u) |
+compounding errors (u) |
+explosive hunt (u) |
+rush hour (u)
+
+blitz (s) [S2 rule] - # 'energies that formed in extreme speeds'
+/set
+name=chesstris blitz;
+userLimit=2;
+match.ft=1;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=35;
+options.garbagecap=40;
+options.spinbonuses=all-mini+;
+options.b2bchaining=false;
+options.b2bcharging=true;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=1; 
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=1;
+options.room_handling=false;
+options.garbagearebump=0;
+
+rush hour (u) [power b2b, 3 stocks] - # 'every minute and every second should be utilised to the best'
+/set
+name=chesstris blitz;
+userLimit=2;
+match.ft=1;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=35;
+options.garbagecap=40;
+options.spinbonuses=T-spins+;
+options.b2bchaining=true;
+options.b2bcharging=true;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=3;
+options.room_handling=false;
+options.garbagearebump=0;
+
+compounding errors (u) [All spin+, messier garbage, guideline] - # 'with accomplishments that disappear and mistakes pilling up'
+/set
+name=chesstris blitz;
+userLimit=2;
+match.ft=1;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.allclear_garbage=8;
+options.allclear_b2b=1;
+options.openerphase=35;
+options.garbagecap=40;
+options.spinbonuses=all+;
+options.b2bchaining=false;
+options.b2bcharging=false;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=0.5;
+options.messiness_inner=0.5;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=1;
+options.room_handling=false;
+options.garbagearebump=0;
+
+explosive hunt (u) [Tspins+, bombs, messier garbage, power b2b] - # 'the hunt for style in an explosive way'
+/set
+name=chesstris blitz;
+userLimit=2;
+match.ft=1;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=35;
+options.garbagecap=40;
+options.spinbonuses=T-spins+;
+options.b2bchaining=true;
+options.b2bcharging=true;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=1;
+options.messiness_inner=0.2;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=true;
+options.stock=1;
+options.room_handling=false;
+options.garbagearebump=0;
+
+blistering speed (u) [guideline, column locked garb] - # 'the only path ahead is forward...'
+/set
+name=chesstris blitz;
+userLimit=2;
+match.ft=1;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.allclear_garbage=8;
+options.allclear_b2b=1;
+options.openerphase=35;
+options.garbagecap=40;
+options.spinbonuses=T-spins+;
+options.b2bchaining=false;
+options.b2bcharging=false;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=0;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=1;
+options.room_handling=false;
+options.garbagearebump=0;
+
+shackled (s) [S2 rule, enforced] - # 'despite the limits, ones ambition is limitless'
+/set
+name=chesstris blitz;
+userLimit=2;
+match.ft=1;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=35;
+options.garbagecap=40;
+options.spinbonuses=all-mini+;
+options.b2bchaining=false;
+options.b2bcharging=true;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=1;
+options.room_handling=true;
+options.garbagearebump=0;
+
+accelerate (u) [guideline, gravity margin, garb margin] - # 'time is a value used to make great things'
+/set
+name=chesstris blitz;
+userLimit=2;
+match.ft=1;
+options.g=0;
+options.gincrease=0.000833;
+options.garbageincrease=0.000833;
+options.locktime=7200;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=35;
+options.garbagecap=40;
+options.spinbonuses=T-spins+;
+options.b2bchaining=false;
+options.b2bcharging=false;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=1;
+options.room_handling=false;
+options.garbagearebump=0;
+
+Timers: same rules apply except for the following changes
+Timer is set to 5 minutes
+Time foul penalty is 1 minute (subject to change)
+
+v0.1.8
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+ACG Series
+
+ACG (S- to SS)
+/set
+name=ACG;
+userLimit=2;
+match.ft=5;
+options.g=0.42;
+options.gmargin=3000;
+options.gincrease=0.015;
+options.locktime=30;
+options.b2bcharging=true;
+options.b2bchaining=true;
+options.allclear_garbage=0;
+options.allclear_b2b=7;
+options.openerphase=35;
+options.garbagemultiplier=0.85;
+options.garbageincrease=0.0025;
+options.garbagemargin=1800;
+options.garbagecap=1;
+options.spinbonuses=all+;
+options.garbagespecialbonus=false;
+options.garbagespeed=20;
+options.garbageentry=continuous;
+options.garbageare=30;
+           _-*-_
+/set
+options.garbagephase=40;
+options.passthrough=full;
+options.garbagearebump=20;
+options.garbageblocking=limited blocking;
+options.garbagecapmax=5;
+options.garbagecapmargin=0;
+options.garbagecapincrease=0.018;
+
+ACG:R (U and above)
+/set
+name=ACG:R;
+userLimit=2;
+match.ft=7;
+options.g=0.75;
+options.gmargin=3000;
+options.gincrease=0.015;
+options.locktime=30;
+options.b2bcharging=true;
+options.b2bchaining=true;
+options.allclear_garbage=0;
+options.allclear_b2b=7;
+options.openerphase=35;
+options.garbagemultiplier=0.85;
+options.garbageincrease=0.0065;
+options.garbagemargin=1800;
+options.garbagecap=1;
+options.spinbonuses=all+;
+options.garbagespecialbonus=false;
+options.garbagespeed=20;
+options.garbageentry=continuous;
+options.garbageare=30;
+           _-*-_
+/set
+options.garbagephase=30;
+options.passthrough=full;
+options.garbagearebump=20;
+options.garbageblocking=limited blocking;
+options.garbagecapmax=5;
+options.garbagecapmargin=0;
+options.garbagecapincrease=0.018;
+
+v.10.1c | 3rd Cycle
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Endurance Remade
+
+Season 1 rule
+/set
+name=endurance;
+userLimit=2;
+match.ft=3;
+options.g=0.02;
+options.gincrease=0;
+options.garbageincrease=0.008;
+options.locktime=30;
+options.b2bcharging=false;
+options.b2bchaining=true;
+options.allclear_garbage=8;
+options.allclear_b2b=1;
+options.openerphase=0;
+options.garbagemultiplier=1;
+options.messiness_change=0.6;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.garbagecap=1;
+options.spinbonuses=T-spins+;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+           _-*-_
+/set
+options.garbageentry=continuous;
+options.garbageare=35;
+options.garbagephase=40;
+options.garbagearebump=0;
+options.garbagecapmargin=3600;
+options.garbagecapmax=50;
+options.roundmode=rng;
+options.garbagecapincrease=0.1;
+
+Season 2 rule
+/set
+name=endurance;
+userLimit=2;
+match.ft=3;
+options.g=0.02;
+options.gincrease=0;
+options.garbageincrease=0.008;
+options.locktime=30;
+options.b2bcharging=true;
+options.b2bchaining=false;
+options.allclear_garbage=8;
+options.allclear_b2b=1;
+options.openerphase=0;
+options.garbagemultiplier=1;
+options.messiness_change=0.6;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.garbagecap=1;
+options.spinbonuses=all-mini+;
+options.garbagequeue=false;
+options.garbagespecialbonus=true;
+           _-*-_
+/set
+options.garbageentry=continuous;
+options.garbageare=35;
+options.garbagephase=40;
+options.garbagearebump=0;
+options.garbagecapmargin=3600;
+options.garbagecapmax=50;
+options.roundmode=rng;
+options.garbagecapincrease=0.1;
+
+v.1.1

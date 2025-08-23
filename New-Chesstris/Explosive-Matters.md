@@ -1,0 +1,35 @@
+**explosive matters (u) [power b2b, all-mini+, bombs, lenient garb, .9x garb multi, messier garb] - # 'with many battles fought, the war still rages on'**
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bchaining=true;
+options.b2bcharging=true;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=0;
+options.garbagecap=40;
+options.spinbonuses=all-mini+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbagemultiplier=0.9;
+options.messiness_change=0.9;
+           _-*-_
+/set
+options.messiness_inner=0.2;
+options.garbageare=8;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.usebombs=true;
+options.messiness_nosame=true;
+options.nextcount=6;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=300;
+options.garbageblocking=combo blocking;

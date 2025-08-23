@@ -1,0 +1,35 @@
+decelerate (u) [Power b2b, .7x garb multi, all spin+] - # 'the last day before things goes down crumbling'
+/set
+name=new chesstris;
+userLimit=2;
+match.ft=2;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.b2bcharging=true;
+options.b2bchaining=true;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=0;
+options.garbagemultiplier=0.7;
+options.messiness_change=1;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.garbagecap=40;
+options.spinbonuses=all+;
+options.garbagequeue=true;
+options.garbagespecialbonus=false;
+           _-*-_
+/set
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=false;
+options.stock=0;
+options.room_handling=false;
+options.garbagearebump=0;
+options.garbageblocking=combo blocking;

@@ -1,0 +1,32 @@
+Season 1 rule
+/set
+name=endurance;
+userLimit=2;
+match.ft=3;
+options.g=0.02;
+options.gincrease=0;
+options.garbageincrease=0.008;
+options.locktime=30;
+options.b2bcharging=false;
+options.b2bchaining=true;
+options.allclear_garbage=8;
+options.allclear_b2b=1;
+options.openerphase=0;
+options.garbagemultiplier=1;
+options.messiness_change=0.6;
+options.messiness_inner=0;
+options.messiness_nosame=false;
+options.garbagecap=1;
+options.spinbonuses=T-spins+;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+           _-*-_
+/set
+options.garbageentry=continuous;
+options.garbageare=35;
+options.garbagephase=40;
+options.garbagearebump=0;
+options.garbagecapmargin=3600;
+options.garbagecapmax=50;
+options.roundmode=rng;
+options.garbagecapincrease=0.1;

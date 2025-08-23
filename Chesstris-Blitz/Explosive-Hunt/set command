@@ -1,0 +1,34 @@
+explosive hunt (u) [Tspins+, bombs, messier garbage, power b2b] - # 'the hunt for style in an explosive way'
+/set
+name=chesstris blitz;
+userLimit=2;
+match.ft=1;
+options.g=0;
+options.gincrease=0;
+options.garbageincrease=0;
+options.locktime=7200;
+options.allclear_garbage=0;
+options.allclear_b2b=4;
+options.openerphase=35;
+options.garbagecap=40;
+options.spinbonuses=T-spins+;
+options.b2bchaining=true;
+options.b2bcharging=true;
+options.garbagequeue=false;
+options.garbagespecialbonus=false;
+options.garbagespeed=1;
+options.garbageentry=continuous;
+options.garbageare=1;
+options.garbagemultiplier=1;
+           _-*-_
+/set
+options.messiness_change=1;
+options.messiness_inner=0.2;
+options.messiness_nosame=false;
+options.infinite_hold=true;
+options.infinite_movement=true;
+options.nextcount=6;
+options.usebombs=true;
+options.stock=1;
+options.room_handling=false;
+options.garbagearebump=0;

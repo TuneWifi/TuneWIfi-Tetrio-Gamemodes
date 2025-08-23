@@ -1,0 +1,32 @@
+ACG (S- to SS)
+/set
+name=ACG;
+userLimit=2;
+match.ft=5;
+options.g=0.42;
+options.gmargin=3000;
+options.gincrease=0.015;
+options.locktime=30;
+options.b2bcharging=true;
+options.b2bchaining=true;
+options.allclear_garbage=0;
+options.allclear_b2b=7;
+options.openerphase=35;
+options.garbagemultiplier=0.85;
+options.garbageincrease=0.0025;
+options.garbagemargin=1800;
+options.garbagecap=1;
+options.spinbonuses=all+;
+options.garbagespecialbonus=false;
+options.garbagespeed=20;
+options.garbageentry=continuous;
+options.garbageare=30;
+           _-*-_
+/set
+options.garbagephase=40;
+options.passthrough=full;
+options.garbagearebump=20;
+options.garbageblocking=limited blocking;
+options.garbagecapmax=5;
+options.garbagecapmargin=0;
+options.garbagecapincrease=0.018;

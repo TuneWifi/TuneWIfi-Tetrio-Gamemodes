@@ -32,3 +32,4 @@ options.stock=0;
 options.room_handling=false;
 options.garbagearebump=0;
 options.garbageblocking=limited blocking;
+options.garbagephase=10;

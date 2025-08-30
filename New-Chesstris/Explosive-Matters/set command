@@ -31,6 +31,6 @@ options.messiness_nosame=true;
 options.nextcount=6;
 options.stock=0;
 options.room_handling=false;
-options.garbagearebump=30;
+options.garbagearebump=60;
 options.garbageblocking=combo blocking;
 options.garbagephase=35;

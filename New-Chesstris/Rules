@@ -17,6 +17,7 @@ rounds 2 and beyond will have players play first if they lost the previous round
 fouls are earned by:
 going over the multiple of 7 (miscount)
 placing pieces when its not your turn (false start)
+tampering with the timer (tampering)
 
 When setting up a ranked match, set the timer in https://sharedgametimer.com/
 Pick the following options:
@@ -29,7 +30,7 @@ Time adjust buttons(on) -> remove 1, -2 and add -3
 
 Terms:
 in-frame holding - Holding before Garbage fully rises (usually used when holding becomes deadly after garbage fully rises)
-Frame Perect hold - same as in-frame holding but requires frame perfect to execute
+Frame Perfect hold - same as in-frame holding but requires frame perfect to execute
 I-frames - frames which grants immunity from tanking more garbage after tanking the previous garbage
 Half-Turn (hT) - Half turn is when one player takes their turn
 Full-Turn (fT) - Full-Turn is when one full revolution is complete (back to the first player)
@@ -57,3 +58,4 @@ for the 1st round, timer will only begin after the first bag, the one who goes f
  -- Turn types: --
  Bagwise - 7 Pieces per Half-Turn (Per player turn)
  6+3 - 3 Pieces for the first Half-Turn, 6 Pieces for second Half-Turn and beyond
+ Per Piece - 1 Pieces per Half-Turn
